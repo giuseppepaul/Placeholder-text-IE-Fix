@@ -1,0 +1,21 @@
+body {
+	font-family: Helvetica, Arial, sans-serif;
+}
+#container {
+	width:300px;
+	margin-right:auto;
+	margin-left:auto;
+	margin-top:200px;
+}
+label {
+	display:block;
+	margin-top:20px;
+	margin-bottom:5px;
+}
+input {
+	padding:5px;
+	color:#333;
+}
+.placeholderText {
+	color:#999;
+}
