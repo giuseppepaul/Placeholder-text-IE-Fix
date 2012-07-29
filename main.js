@@ -21,7 +21,7 @@ $(function(){
 	
 	if (!$.support.placeholder){
 		
-		$("input[type=text]").each(function(){
+		$("input[type=text], input[type=email]").each(function(){
 			
 			var $this = $(this);
 			var placeholder = $this.attr("placeholder");
