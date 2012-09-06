@@ -55,8 +55,12 @@ $(function () {
 						$this.val(placeholder).addClass("placeholderText");
 					}
 				});
+				$this.bind('paste', function (e) {
+					if ($this.val() == placeholder) {
+						$this.val("").removeClass("placeholderText");
+					}
+				});
 			}
-
 		});
 	}
 });
